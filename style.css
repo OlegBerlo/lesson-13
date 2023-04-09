@@ -95,3 +95,37 @@ nav ul li a:hover {
   width: 100%;
   height: 50rem;
 }
+.home-sechon .rihgt .title-text h2 {
+  font-size: 2rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.home-sechon .rihgt .top-news {
+  padding: 0.7rem;
+  height: 85%;
+  border: 0.1rem solid darkgoldenrod;
+  border-radius: 0.5rem;
+  overflow-y: scroll;
+}
+.home-sechon .rihgt .top-news .news .img {
+  background: red;
+  width: 12rem;
+  height: 12rem;
+  cursor: pointer;
+}
+.home-sechon .rihgt .top-news .news {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.home-sechon .rihgt .top-news .news .text {
+  margin-inline: 2rem;
+}
+.home-sechon .rihgt .top-news .news .text .title p {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.home-sechon .rihgt .top-news .news .text .title p:hover {
+  text-decoration: underline;
+}
