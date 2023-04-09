@@ -5,37 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1>Number guessing game</h1>
-    <h2>home dom</h2>
-    <p>
-      We have selected a random number between 1 and 100. See if you can guess
-      it in 10 turns or fewer. We'll tell you if your guess was too high or too
-      low.
-    </p>
-    <h3>Gomover index.html</h3>
-    <h4>Toten hem</h4>
-    <div class="form">
-      <label for="guessField">Enter a guess: </label>
-      <input
-        type="number"
-        min="1"
-        max="100"
-        required
-        id="guessField"
-        class="guessField"
-      />
-      <input type="submit" value="Submit guess" class="guessSubmit" />
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/news-logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" #="">Home</a>
+          </li>
+          <li>
+            <a href="#" #="">Sport</a>
+          </li>
+          <li>
+            <a href="#" #="">News</a>
+          </li>
+          <li>
+            <a href="#" #="">Fityre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="home-sechon">
+      <div class="left">
+        <div class="title-text">
+          <h2>Newe Sport</h2>
+        </div>
+        <div class="images"></div>
+        <div class="content">
+          <div class="title">
+            <h3>
+              <a href="https://sport.ua/uk" target="_blank"
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a
+              >
+            </h3>
+          </div>
+          <div class="descr">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="rihgt">
+        <div class="title-text">
+          <h2>Rihgt-news</h2>
+        </div>
+        <div class="top-news">
+          <div class="news">
+            <div class="img"></div>
+            <div class="text">
+              <div class="title">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="resultParas">
-      <p class="guesses"></p>
-      <p class="lastResult"></p>
-      <p class="lowOrHi"></p>
-    </div>
-
     <script src="app.js"></script>
   </body>
 </html>
