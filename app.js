@@ -2,17 +2,17 @@
 let num = 10;
 console.log(num * "jiack");
 
-let number = prompt("Введіть число: ");
-let square = Math.pow(parseInt(number), 2);
-console.log("Квадрат числа", number, "дорівнює", square);
+// let number = prompt("Введіть число: ");
+// let square = Math.pow(parseInt(number), 2);
+// console.log("Квадрат числа", number, "дорівнює", square);
 
-let name = prompt("Введіть Ваше ім'я: ");
-let depositAmount = parseFloat(prompt("Введіть суму депозиту: "));
-let depositTerm = parseInt(prompt("Введіть термін депозиту у місяцях: "));
+// let name = prompt("Введіть Ваше ім'я: ");
+// let depositAmount = parseFloat(prompt("Введіть суму депозиту: "));
+// let depositTerm = parseInt(prompt("Введіть термін депозиту у місяцях: "));
 
-let annualInterestRate = 0.2; // 20% річних
-let monthlyInterestRate = annualInterestRate / 12;
-let interestEarned = depositAmount * monthlyInterestRate * depositTerm;
+// let annualInterestRate = 0.2; // 20% річних
+// let monthlyInterestRate = annualInterestRate / 12;
+// let interestEarned = depositAmount * monthlyInterestRate * depositTerm;
 
 console.log(
   `Шановний ${name}, Ви внесли ${depositAmount.toFixed(2)} грн., під ${
