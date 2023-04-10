@@ -11,6 +11,15 @@ body {
   height: 100vh;
   color: white;
 }
+.home-sechon .rihgt .top-news::-webkit-scrollbar {
+  width: 1.6rem;
+}
+.home-sechon .rihgt .top-news::-webkit-scrollbar track {
+  background: transparent;
+}
+.home-sechon .rihgt .top-news::-webkit-scrollbar track {
+  background-color: brown;
+}
 header {
   width: 100%;
   position: fixed;
